@@ -56,18 +56,17 @@ pip install -r requirements.txt
 
 ### 2. Rodar os testes
 ```bash
-pytest
+python -m pytest
 ```
 
 ### 3. Rodar com relatório de cobertura
 ```bash
-pytest --cov=imc --cov-report=term-missing
+python -m pytest --cov=imc --cov-report=term-missing
 ```
 
 ### 4. Gerar relatório HTML de cobertura
 ```bash
-pytest --cov=imc --cov-report=html
-# Abrir: htmlcov/index.html
+python -m pytest --cov=imc --cov-report=html
 ```
 
 ---
@@ -79,7 +78,7 @@ Os testes cobrem 3 cenários para cada função:
 - ❌ **Valores inválidos** — entradas erradas que devem lançar exceção
 - 🎯 **Valores-limite** — bordas exatas de cada faixa da OMS
 
-**Total de testes:** 38 casos  
+**Total de testes:** 41 casos  
 **Cobertura esperada:** 100% das linhas do `imc.py`
 
 ## 📸 Relatório de Cobertura
