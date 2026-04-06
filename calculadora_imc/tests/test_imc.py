@@ -1,8 +1,6 @@
 """
 Suite de Testes Unitários - Calculadora de IMC
-Ferramenta: pytest
-Nível: Teste de Unidade (Componente)
-Padrão de nomenclatura: metodoTestado_cenario_resultadoEsperado
+
 """
 
 import pytest
