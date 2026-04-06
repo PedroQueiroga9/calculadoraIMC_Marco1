@@ -81,3 +81,8 @@ Os testes cobrem 3 cenários para cada função:
 
 **Total de testes:** 38 casos  
 **Cobertura esperada:** 100% das linhas do `imc.py`
+
+## 📸 Relatório de Cobertura
+
+![Teste 1](image/testoficial1.png)
+![Teste 2](image/testeoficial2.png)
