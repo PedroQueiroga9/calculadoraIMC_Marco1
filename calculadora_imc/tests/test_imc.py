@@ -10,9 +10,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from imc import calcular_imc, classificar_imc, calcular_e_classificar
 
 
-# ───────────────────────────────────────────────
+
 # FIXTURES
-# ───────────────────────────────────────────────
 
 @pytest.fixture
 def peso_altura_normais():
@@ -20,9 +19,8 @@ def peso_altura_normais():
     return {"peso": 70.0, "altura": 1.75}
 
 
-# ───────────────────────────────────────────────
+
 # TESTES: calcular_imc()
-# ───────────────────────────────────────────────
 
 class TestCalcularImc:
 
@@ -87,9 +85,8 @@ class TestCalcularImc:
             calcular_imc(70, False)
 
 
-# ───────────────────────────────────────────────
+
 # TESTES: classificar_imc()
-# ───────────────────────────────────────────────
 
 class TestClassificarImc:
 
@@ -157,9 +154,9 @@ class TestClassificarImc:
             classificar_imc("alto")
 
 
-# ───────────────────────────────────────────────
+
 # TESTES: calcular_e_classificar()
-# ───────────────────────────────────────────────
+
 
 class TestCalcularEClassificar:
 
